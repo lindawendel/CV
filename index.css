@@ -37,7 +37,7 @@ header, main
     padding: 5px;
 }
 
-#brad_pic {
+#main_pic {
     width: 100%; 
     padding-left: 15px;
 }
@@ -125,7 +125,7 @@ footer ul {
         "footer"; 
     }
 
-    #brad_pic {
+    #main_pic {
         display: block;
         text-align: center;
         border-bottom: 0;
