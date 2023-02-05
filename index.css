@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 html {
-    background-color: hsl(40, 50%, 60%)
+    background-color: hsl(210,81%,17%)
 }
 
 * {
@@ -15,16 +15,17 @@ html {
 }
 
 header, main, footer {
-    background-color: hsl(40, 100%, 85%); 
+    background-color: beige;
+    
 }
 
-.winner {
+/* .winner {
     color:hsl(40, 100%, 35%);
 }
 
 .nominee {
     color: hsl(0, 0%, 50%);
-}
+} */
 
 div {
     /* border: 2px solid red; */
@@ -48,7 +49,7 @@ body {
     "as_left header as_right"
     "as_left main as_right"
     "as_left footer as_right";
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 10% 80% 10%;
 }
 
 header {grid-area: header;}
@@ -57,20 +58,24 @@ footer {grid-area: footer;}
 #left {grid-area: as_left}
 #right {grid-area: as_right;}
 
-#brad_pic , #main_text {
+#main_pic , #main_text {
     border-top: 1px solid hsl(40, 50%, 60%);
     border-bottom: 1px solid hsl(40, 50%, 60%);
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-#movies , #awards {
+#main_text {
+    padding-left: 25px;
+}
+
+#why , #add {
     border-bottom: 1px solid hsl(40, 50%, 60%);
     padding-bottom: 15px;
 }
 
 main {
-    background-color: hsl(40, 100%, 85%);
+    background-color: beige;
     display:grid;
     grid-template:  
     "a b b b"
@@ -84,10 +89,10 @@ ul {
     padding-right: 25px;
 }
 
-#brad_pic {grid-area: a; }
+#main_pic {grid-area: a; }
 #main_text {grid-area: b;}
-#movies {grid-area: c; }
-#awards {grid-area: d; }
+#why {grid-area: c; }
+#add {grid-area: d; }
 
 h1 {
     font-style: italic;
@@ -138,7 +143,7 @@ footer ul {
     #main_text {
         border-top: 0;
     }
-    #movies {
+    #why {
         border-bottom: 0;
     }
 
