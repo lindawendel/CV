@@ -31,7 +31,7 @@ div {
     padding: 8px;
 }
 
-header, main
+header, main, #comment
 {
     /* border: 2px solid green; */
     padding: 5px;
@@ -91,6 +91,10 @@ ul {
 
 h1 {
     font-style: italic;
+    text-align: center;
+}
+
+#comment {
     text-align: center;
 }
 
