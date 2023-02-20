@@ -27,9 +27,20 @@ header, main, footer {
     background-color: beige; 
 }
 
+div {
+    /* border: 2px solid red; */
+    padding: 8px;
+}
+
 #why, #add {
     border-top: 1px solid hsl(40, 50%, 60%);
     padding: 6px;
+}
+
+header, main, #comment
+{
+    /* border: 2px solid green; */
+    padding: 5px;
 }
 
 aside {
@@ -159,6 +170,10 @@ footer ul {
 
     #hobbies, #qualities {
         justify-self:center;
+    }
+
+    #why, #add {
+        border-bottom: 0;
     }
 
 }
